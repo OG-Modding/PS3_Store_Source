@@ -26,7 +26,7 @@
 			</Items>
 		</View>		
 		
-<!-- Menu principal -->
+<!-- Menú principal -->
 		
 		<View id="store_main_items"> 
 		<Attributes>
@@ -41,15 +41,17 @@
 				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/test.png</String></Pair>
 				<Pair key="title"><String>TEST_FOLDER</String></Pair>
 				<Pair key="info"><String>INFO</String></Pair>
+				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 			<Table key="folder2">
 				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/test.png</String></Pair>
 				<Pair key="title"><String>TEST_FOLDER</String></Pair>
 				<Pair key="info"><String>INFO</String></Pair>
+				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 		</Attributes>
 			<Items>	
-            <Query 
+           		<Query 
 				class="type:x-xmb/module-action"
 				key="hen_enabler"
 				attr="hen_enabler"
