@@ -140,7 +140,7 @@
 				class="type:x-xmb/folder-pixmap"
 				key="store_update"
 				attr="store_update"
-				src="#store_updater_main"
+				src="#store_update_main"
 				/>
 			<Item class="type:x-xmb/module-action" key="licencias" attr="licencias"/>
 			<Query 
