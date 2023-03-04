@@ -165,8 +165,8 @@
 			</Table>
 		</Attributes>
 			<Items>
-			<Item class="type:x-xmb/xmlnpsignup" key="store_update_item" attr="store_update_item"/>
-		</Items>
-	</View>
+				<Item class="type:x-xmb/xmlnpsignup" key="store_update_item" attr="store_update_item"/>
+			</Items>
+		</View>
 			
 </XMBML>
