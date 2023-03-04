@@ -26,9 +26,9 @@
 			</Items>
 		</View>		
 		
-<!-- Menú principal -->
+	<!-- Menú principal -->
 		
-		<View id="store_main_items"> 
+	<View id="store_main_items"> 
 		<Attributes>
 		<Table key="hen_enable">
 				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/test.png</String></Pair>
@@ -63,7 +63,7 @@
 			</Table>
 		</Attributes>
 			<Items>	
-            <Query 
+            		<Query
 				class="type:x-xmb/module-action"
 				key="hen_enable"
 				attr="hen_enable"
@@ -95,7 +95,7 @@
 			</Items>
 		</View>
 		
-		<View id="extras_folder_main">
+	<View id="extras_folder_main">
 		<Attributes>
 			<Table key="file_browser">
 				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/file_explorer.png</String></Pair>
@@ -156,9 +156,9 @@
 			</Items>
 		</View>
 			
-			<View id="store_update_main">
-			<Attributes>
-				<Table key="store_update_item">
+	<View id="store_update_main">
+		<Attributes>
+			<Table key="store_update_item">
 				<Pair key="info"><String>net_package_install</String></Pair>
 				<Pair key="pkg_src"><String><!-- Poner Aquí El Link De La Actualicación De La Tienda--></String></Pair>
 				<Pair key="content_name"><String>pkg_install_pc</String></Pair>
@@ -168,6 +168,6 @@
 			<Items>
 			<Item class="type:x-xmb/xmlnpsignup" key="store_update_item" attr="store_update_item"/>
 		</Items>
-		</View>
+	</View>
 			
 </XMBML>
