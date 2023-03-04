@@ -26,9 +26,9 @@
 			</Items>
 		</View>		
 		
-<!-- Menú principal -->
+	<!-- Menú principal -->
 		
-		<View id="store_main_items"> 
+	<View id="store_main_items"> 
 		<Attributes>
 		<Table key="hen_enable">
 				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/test.png</String></Pair>
@@ -55,15 +55,9 @@
 				<Pair key="info"><String>INFO</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
-			<Table key="extras_folder">
-				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/extras.png</String></Pair>
-				<Pair key="title"><String>Extras</String></Pair>
-				<Pair key="info"><String>Menú con otras descargas y utilidades</String></Pair>
-				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
-			</Table>
 		</Attributes>
 			<Items>	
-            <Query 
+            		<Query 
 				class="type:x-xmb/module-action"
 				key="hen_enable"
 				attr="hen_enable"
@@ -86,88 +80,7 @@
 				attr="folder3"
 				src="#folder3_main"
 				/>
-			<Query 
-				class="type:x-xmb/folder-pixmap" 
-				key="extras_folder" 
-				attr="extras_folder"
-				src="#extras_folder_main"
-				/>
 			</Items>
 		</View>
-		
-		<View id="extras_folder_main">
-		<Attributes>
-			<Table key="file_browser">
-				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/file_explorer.png</String></Pair>
-				<Pair key="title"><String>Explorador De Archivos</String></Pair>
-				<Pair key="info"><String></String></Pair>
-			</Table>
-			<Table key="store_update">
-				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/update.png</String></Pair>
-				<Pair key="title"><String>Store Updater</String></Pair>
-				<Pair key="info"><String>Descarga e instala la última versión de la tienda</String></Pair>
-			</Table>
-			<Table key="licencias">
-				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/licencias.png</String></Pair>
-				<Pair key="title"><String>15.280 Licencias</String></Pair>
-				<Pair key="info"><String>Descarga e instala directamente al HDD las licencias</String></Pair>
-				<Pair key="module_name"><String>webrender_plugin</String></Pair>
-				<Pair key="module_action"><String>https://download2389.mediafire.com/y1covs2idnfg/eitlg2jhujx92i0/15.280_Licencias.pkg</String></Pair>
-			</Table>
-			<Table key="about">
-				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/about.png</String></Pair>
-				<Pair key="title"><String>Tienda creada por OG Modding</String></Pair>
-				<Pair key="info"><String>Pulsa aquí para ir al Source Code de la tienda en GitHub</String></Pair>
-				<Pair key="module_name"><String>webrender_plugin</String></Pair>
-				<Pair key="module_action"><String>https://github.com/OG-Modding/PS3_Store_Source</String></Pair>
-			</Table>
-			<Table key="canal_youtube">
-				<Pair key="icon"><String>/dev_hdd0/game/STORE0000/USRDIR/img/youtube.png</String></Pair>
-				<Pair key="title"><String>Canal De OG Modding</String></Pair>
-				<Pair key="info"><String>Más vídeos y tutoriales</String></Pair>
-				<Pair key="module_name"><String>webrender_plugin</String></Pair>
-				<Pair key="module_action"><String>https://www.youtube.com/channel/UCw1lPEXHFH_t9T3PPhm2okw</String></Pair>
-			</Table>
-		</Attributes>
-			<Items>
-			<Query 
-				class="type:x-xmb/folder-pixmap"
-				key="file_browser"
-				attr="file_browser"
-				src="host://localhost/"
-				/>
-			<Query 
-				class="type:x-xmb/folder-pixmap"
-				key="store_update"
-				attr="store_update"
-				src="#store_updater_main"
-				/>
-			<Item class="type:x-xmb/module-action" key="licencias" attr="licencias"/>
-			<Query 
-				class="type:x-xmb/module-action"
-				key="about"
-				attr="about"
-				/>
-			<Query 
-				class="type:x-xmb/module-action"
-				key="canal_youtube"
-				attr="canal_youtube"
-				/>
-			</Items>
-		</View>
-			
-			<View id="store_update_main">
-			<Attributes>
-				<Table key="store_update_item">
-				<Pair key="info"><String>net_package_install</String></Pair>
-				<Pair key="pkg_src"><String><!-- Poner Aquí El Link De La Actualicación De La Tienda--></String></Pair>
-				<Pair key="content_name"><String>pkg_install_pc</String></Pair>
-				<Pair key="prod_pict_path"><String>/dev_hdd0/game/STORE0000/USRDIR/img/update.png</String></Pair>
-			</Table>
-		</Attributes>
-			<Items>
-			<Item class="type:x-xmb/xmlnpsignup" key="store_update_item" attr="store_update_item"/>
-		</Items>
-		</View>
-			
+
 </XMBML>
